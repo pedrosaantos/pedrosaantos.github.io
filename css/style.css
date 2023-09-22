@@ -9,7 +9,7 @@
     --txt-dark:  #fff;
 
     /* Versão Light */
-    --light: #ffffff;
+    --light: #f5f6fb;
     --secondary-Light: #e5e5e5;
     --txt-light: #000;
 
@@ -30,6 +30,10 @@
 }
 
 /* ---- Introdução ---- */
+.intro-foto:hover {
+    transform: scale(1.1);
+    transition: 0.7s;
+}
 .intro-h3 {
     color: var(--txt-light);
     font-family: var(--fonte);
@@ -67,8 +71,11 @@
     
     text-align: center;
 }
-.formacoes-title:hover{
+.formacoes-title:hover {
     color: var(--main);
+
+    transform: scale(1.1);
+    transition: 0.7s;
 }
 .formacoes-txt-area {
     width: 85%;
@@ -77,6 +84,10 @@
 
     border-radius: 20px;
     border: 2px solid var(--main);
+}
+.formacoes-txt-area:hover {
+    transform: scale(1.02);
+    transition: 0.7s;
 }
 .formacoes-h3 {
     color: var(--txt-light);
@@ -109,6 +120,9 @@
 }
 .exp-title:hover{
     color: var(--main);
+    
+    transform: scale(1.1);
+    transition: 0.7s;
 }
 .exp-txt-area {
     width: 85%;
@@ -116,6 +130,10 @@
     background-color: var(--secondary-Light);
 
     border-radius: 20px;
+}
+.exp-txt-area:hover {
+    transform: scale(1.02);
+    transition: 0.7s;
 }
 .exp-h3 {
     color: var(--txt-light);
@@ -148,6 +166,9 @@
 }
 .cursos-title:hover{
     color: var(--main);
+
+    transform: scale(1.1);
+    transition: 0.7s;
 }
 .cursos-card{
     width: 23%;
@@ -156,6 +177,10 @@
 
     border: 2px solid var(--main);
     border-radius: 10px;
+}
+.cursos-card:hover {
+    transform: scale(1.02);
+    transition: 0.7s;
 }
 .cursos-h3 {
     color:  var(--txt-light);
@@ -189,17 +214,21 @@
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
-
     text-decoration: none;
 
-    border-radius: 7px;
+    border-radius: 7px; 
 }
 .cursos-btn-vermais:hover {
     color: var(--main);
-
     background-color: transparent;
 
     border: 2px solid var( --main);
+  
+    transition: 0.5s;
+}
+.btn-transform:hover {
+    transform: scale(1.1);
+    transition: 0.7s;
 }
 /* ---- Fim cursos ---- */
 
@@ -216,6 +245,9 @@
 }
 .infoextra-title:hover{
     color: var(--main);
+
+    transform: scale(1.1);
+    transition: 0.7s;
 }
 .infoextra-txt-area {
     width: 85%;
@@ -223,6 +255,10 @@
     background-color: var(--secondary-Light);
 
     border-radius: 20px;
+}
+.infoextra-txt-area:hover {
+    transform: scale(1.02);
+    transition: 0.7s;
 }
 .infoextra-h3 {
     color:  var(--txt-light);
@@ -281,4 +317,11 @@ ul {
 svg {
     fill: var(--txt-light);
 } 
+
+svg:hover {
+    fill: var(--main);
+
+    transform: scale(1.1);
+    transition: 0.7s;
+}
 /* ---- Fim footer ---- */
