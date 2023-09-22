@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root{
+    --main: #7300CE;
+
+    /* Versão Dark */
+    --dark: #000;
+    --secondary-dark: #1A1A1A;
+    --txt-dark:  #fff;
+
+    /* Versão Light */
+    --light: #ffffff;
+    --secondary-Light: #e5e5e5;
+    --txt-light: #000;
+
+    --alternative-text: #616161;
+    
+    --fonte: 'Roboto', sans-serif;
+}
+.fundo{
+    background-color: var(--light);
+}
+.nome-title {
+    color: var(--txt-light);
+    font-family: var(--fonte);
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+/* ---- Introdução ---- */
+.intro-h3 {
+    color: var(--txt-light);
+    font-family: var(--fonte);
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.intro-span {
+    color: var(--main);
+    font-family: var(--fonte);
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.intro-p {
+    color: var(--txt-light);
+    font-family: var(--fonte);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+/* ---- Fim introdução ---- */
+
+/* ---- Formações ---- */
+.formacoes-title {
+    color: var(--txt-light);
+    font-family: var(--fonte);
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    
+    text-align: center;
+}
+.formacoes-title:hover{
+    color: var(--main);
+}
+.formacoes-txt-area {
+    width: 85%;
+
+    background-color: var(--secondary-Light);
+
+    border-radius: 20px;
+    border: 2px solid var(--main);
+}
+.formacoes-h3 {
+    color: var(--txt-light);
+    font-family: var(--fonte);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.formacoes-p {
+    color: var(--txt-light);
+    font-family: var(--fonte);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+/* ---- Fim formações ---- */
+
+/* ---- Experiências ---- */
+.exp-title {
+    color: var(--txt-light);
+    font-family: var(--fonte);
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    
+    text-align: center;
+}
+.exp-title:hover{
+    color: var(--main);
+}
+.exp-txt-area {
+    width: 85%;
+
+    background-color: var(--secondary-Light);
+
+    border-radius: 20px;
+}
+.exp-h3 {
+    color: var(--txt-light);
+    font-family: var(--fonte);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.exp-p {
+    color:  var(--txt-light);
+    font-family: var(--fonte);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+/* ---- Fim experiências ---- */
+
+/* ---- Cursos ---- */
+.cursos-title {
+    color:  var(--txt-light);
+    font-family: var(--fonte);
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    
+    text-align: center;
+}
+.cursos-title:hover{
+    color: var(--main);
+}
+.cursos-card{
+    width: 23%;
+
+    background-color: var(--secondary-Light);
+
+    border: 2px solid var(--main);
+    border-radius: 10px;
+}
+.cursos-h3 {
+    color:  var(--txt-light);
+    font-family: var(--fonte);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.cursos-p {
+    color:  var(--txt-light);
+    font-family: var(--fonte);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+
+}
+.cursos-p-a {
+    color:  var(--txt-light);
+}
+.cursos-p-a:hover {
+    color: var(--main);
+}
+.cursos-btn-vermais {
+    background-color: var(--main);
+    padding: 13px 23px;
+
+    color:  var(--light);
+    font-family: var(--fonte);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+
+    text-decoration: none;
+
+    border-radius: 7px;
+}
+.cursos-btn-vermais:hover {
+    color: var(--main);
+
+    background-color: transparent;
+
+    border: 2px solid var( --main);
+}
+/* ---- Fim cursos ---- */
+
+/* ---- Informações extras ---- */
+.infoextra-title {
+    color:  var(--txt-light);
+    font-family: var(--fonte);
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    
+    text-align: center;
+}
+.infoextra-title:hover{
+    color: var(--main);
+}
+.infoextra-txt-area {
+    width: 85%;
+
+    background-color: var(--secondary-Light);
+
+    border-radius: 20px;
+}
+.infoextra-h3 {
+    color:  var(--txt-light);
+    font-family: var(--fonte);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.infoextra-p {
+    color:  var(--txt-light);
+    font-family: var(--fonte);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+ul {
+    list-style-type: disc;      
+}
+/* ---- Fim informações extras ---- */
+
+/* ---- Footer ---- */
+.h5-footer {
+    color:  var(--txt-light);
+    font-family: var(--fonte);
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.p-footer {
+    color: var(--alternative-text);
+    font-family: var(--fonte);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.p-dev {
+    color: var(--alternative-text);
+    font-family: var(--fonte);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.p-dev-span{
+    color: var(--main);
+    font-family: var(--fonte);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+} 
+svg {
+    fill: var(--txt-light);
+} 
+/* ---- Fim footer ---- */
