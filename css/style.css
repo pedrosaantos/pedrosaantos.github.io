@@ -1,31 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-:root{
+:root {
     --main: #7300CE;
-
-    /* Versão Dark */
-    --dark: #000;
-    --secondary-dark: #1A1A1A;
-    --txt-dark:  #fff;
-
-    /* Versão Light */
-    --light: #f5f6fb;
-    --secondary-Light: #e5e5e5;
-    --txt-light: #000;
 
     --alternative-text: #616161;
     
     --fonte: 'Roboto', sans-serif;
+
+    --body-bg: #f5f6fb;
+    --body-secondary: #e5e5e5;
+    --body-color: #000;
+}
+.dark-mode:root {
+    --main: #7300CE;
+
+    --alternative-text: #616161;
+    
+    --fonte: 'Roboto', sans-serif;
+
+    --body-bg: #222;
+    --body-secondary: #1A1A1A;
+    --body-color: #fafafa;
 }
 .fundo{
-    background-color: var(--light);
+    background-color: var(--body-bg);
 }
 .nome-title {
-    color: var(--txt-light);
+    color: var(--body-color);
     font-family: var(--fonte);
     font-size: 32px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 700;color
     line-height: normal;
 }
 
@@ -35,7 +40,7 @@
     transition: 0.7s;
 }
 .intro-h3 {
-    color: var(--txt-light);
+    color: var(--body-color);
     font-family: var(--fonte);
     font-size: 32px;
     font-style: normal;
@@ -51,7 +56,7 @@
     line-height: normal;
 }
 .intro-p {
-    color: var(--txt-light);
+    color: var(--body-color);
     font-family: var(--fonte);
     font-size: 24px;
     font-style: normal;
@@ -62,7 +67,7 @@
 
 /* ---- Formações ---- */
 .formacoes-title {
-    color: var(--txt-light);
+    color: var(--body-color);
     font-family: var(--fonte);
     font-size: 36px;
     font-style: normal;
@@ -80,7 +85,7 @@
 .formacoes-txt-area {
     width: 85%;
 
-    background-color: var(--secondary-Light);
+    background-color: var(--body-secondary);
 
     border-radius: 20px;
     border: 2px solid var(--main);
@@ -90,7 +95,7 @@
     transition: 0.7s;
 }
 .formacoes-h3 {
-    color: var(--txt-light);
+    color: var(--body-color);
     font-family: var(--fonte);
     font-size: 24px;
     font-style: normal;
@@ -98,7 +103,7 @@
     line-height: normal;
 }
 .formacoes-p {
-    color: var(--txt-light);
+    color: var(--body-color);
     font-family: var(--fonte);
     font-size: 20px;
     font-style: normal;
@@ -109,7 +114,7 @@
 
 /* ---- Experiências ---- */
 .exp-title {
-    color: var(--txt-light);
+    color: var(--body-color);
     font-family: var(--fonte);
     font-size: 36px;
     font-style: normal;
@@ -127,7 +132,7 @@
 .exp-txt-area {
     width: 85%;
 
-    background-color: var(--secondary-Light);
+    background-color: var(--body-secondary);
 
     border-radius: 20px;
 }
@@ -136,7 +141,7 @@
     transition: 0.7s;
 }
 .exp-h3 {
-    color: var(--txt-light);
+    color: var(--body-color);
     font-family: var(--fonte);
     font-size: 24px;
     font-style: normal;
@@ -144,7 +149,7 @@
     line-height: normal;
 }
 .exp-p {
-    color:  var(--txt-light);
+    color:  var(--body-color);
     font-family: var(--fonte);
     font-size: 20px;
     font-style: normal;
@@ -155,7 +160,7 @@
 
 /* ---- Cursos ---- */
 .cursos-title {
-    color:  var(--txt-light);
+    color:  var(--body-color);
     font-family: var(--fonte);
     font-size: 36px;
     font-style: normal;
@@ -173,7 +178,7 @@
 .cursos-card{
     width: 23%;
 
-    background-color: var(--secondary-Light);
+    background-color: var(--body-secondary);
 
     border: 2px solid var(--main);
     border-radius: 10px;
@@ -183,7 +188,7 @@
     transition: 0.7s;
 }
 .cursos-h3 {
-    color:  var(--txt-light);
+    color:  var(--body-color);
     font-family: var(--fonte);
     font-size: 24px;
     font-style: normal;
@@ -191,7 +196,7 @@
     line-height: normal;
 }
 .cursos-p {
-    color:  var(--txt-light);
+    color:  var(--body-color);
     font-family: var(--fonte);
     font-size: 20px;
     font-style: normal;
@@ -200,7 +205,7 @@
 
 }
 .cursos-p-a {
-    color:  var(--txt-light);
+    color:  var(--body-color);
 }
 .cursos-p-a:hover {
     color: var(--main);
@@ -209,7 +214,7 @@
     background-color: var(--main);
     padding: 13px 23px;
 
-    color:  var(--light);
+    color:  var(--body-bg);
     font-family: var(--fonte);
     font-size: 20px;
     font-style: normal;
@@ -234,7 +239,7 @@
 
 /* ---- Informações extras ---- */
 .infoextra-title {
-    color:  var(--txt-light);
+    color:  var(--body-color);
     font-family: var(--fonte);
     font-size: 36px;
     font-style: normal;
@@ -252,7 +257,7 @@
 .infoextra-txt-area {
     width: 85%;
 
-    background-color: var(--secondary-Light);
+    background-color: var(--body-secondary);
 
     border-radius: 20px;
 }
@@ -261,7 +266,7 @@
     transition: 0.7s;
 }
 .infoextra-h3 {
-    color:  var(--txt-light);
+    color:  var(--body-color);
     font-family: var(--fonte);
     font-size: 24px;
     font-style: normal;
@@ -269,7 +274,7 @@
     line-height: normal;
 }
 .infoextra-p {
-    color:  var(--txt-light);
+    color:  var(--body-color);
     font-family: var(--fonte);
     font-size: 20px;
     font-style: normal;
@@ -283,7 +288,7 @@ ul {
 
 /* ---- Footer ---- */
 .h5-footer {
-    color:  var(--txt-light);
+    color:  var(--body-color);
     font-family: var(--fonte);
     font-size: 25px;
     font-style: normal;
@@ -315,7 +320,7 @@ ul {
     line-height: normal;
 } 
 svg {
-    fill: var(--txt-light);
+    fill: var(--body-color);
 } 
 
 svg:hover {
@@ -325,3 +330,33 @@ svg:hover {
     transition: 0.7s;
 }
 /* ---- Fim footer ---- */
+
+/* ---- Estilização Switch Dark Mode ---- */
+.label-dm {
+    color: var(--body-color);
+    font-family: var(--fonte);
+    font-weight: 500;
+    font-style: normal;
+}
+.label-dm:hover{
+    transform: scale(1.1);
+    transition: 0.7s;
+}
+.input-dm:focus {
+    background-color: var(--main);
+    box-shadow: 0 0 0 0.2rem rgba(115, 0, 206, 0.25) !important;
+    border-color: var(--main);
+}
+.input-dm:checked {
+    background-color: var(--main);
+    border-color: var(--main);
+}
+.input-dm:active {
+    background-color: var(--main);
+}
+.input-dm:not(:checked) {
+    border-color: var(--main);
+}
+.input-dm:not(:disabled):active{
+    background-color: var(--main)
+}
